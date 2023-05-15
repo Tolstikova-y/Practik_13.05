@@ -1,0 +1,135 @@
+.container {
+	width: 980px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	grid-template-rows: 100px auto 350px auto;
+	grid-template-columns: 70% 30%;
+	display: grid;
+	grid-template-areas:
+	"header header"
+	"search search"
+	"title sidebar"
+	"main sidebar"
+}
+.header {
+	grid-area: header;
+	background-color: #0000cd;
+	color: #ffffff;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.search {
+	grid-area: search;
+	border-bottom: 5px #dcdcdc solid;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding: 15px;
+}
+.menu-in-search {
+	box-sizing: border-box;
+	padding: 5px;
+}
+.alex {
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: #B0E0E6;
+	color: #0000ff;
+}
+.premium {
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: #0000cd;
+	color: #ffffff;
+}
+.foto-premium {
+	box-sizing: border-box; 
+	width: 15px;
+	border-radius: 50%;
+}
+.foto-alex {
+	box-sizing: border-box; 
+	width: 15px;
+	border-radius: 50%;
+}
+.text-in-title {
+	font-size: 14px;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 20px;
+}
+.views {
+	box-sizing: border-box; 
+	height: 50px;
+}
+.pages {
+	box-sizing: border-box; 
+	height: 50px;
+}
+
+.foto-pages {
+	box-sizing: border-box; 
+	width: 25px;
+}
+.title {
+	grid-area: title;
+	margin-bottom: 20px;
+}
+.download {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+.zagruz {
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #0000cd;
+	color: #ffffff;
+	font-size: 20px;
+}
+.ne-gruz {
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #B0E0E6;
+	color: #0000ff;
+	font-size: 20px;
+}
+.main {
+	grid-area: main;
+	box-shadow: 0px 0px 10px 20px #dcdcdc;
+	margin: 20px;
+	
+}
+.title-in-main {
+	font-size: 60px;
+	color: #ff0000;
+}
+.inmain {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.bukva {
+	font-size: 70px;
+	color: #ff0000;
+}
+.foto {
+	box-sizing: border-box; 
+	width: 300px;
+
+}
+.sidebar {
+	grid-area: sidebar;
+	border: 2px #dcdcdc solid;
+}
+.foto-author {
+	box-sizing: border-box; 
+	width: 50px;
+	border-radius: 50%;
+}
+.author {
+	display: flex;
+	flex-wrap: nowrap;
+}
